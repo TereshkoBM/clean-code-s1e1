@@ -49,7 +49,8 @@ body {
   padding: 0px;
 }
 
-.list-item, .text-title {
+.list-item,
+.text-title {
   list-style: none;
 }
 
@@ -137,7 +138,7 @@ body {
   width: 226px;
 }
 
-.list-item >  .input-text {
+.list-item > .input-text {
   width: 226px;
 }
 
