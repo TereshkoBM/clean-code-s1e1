@@ -37,7 +37,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .new-task-wrapper {
@@ -45,18 +45,18 @@ body {
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list-item, .text-title {
-  list-style:none;
+  list-style: none;
 }
 
 .input-checkbox,
 .input-text,
 .btn {
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -138,7 +138,7 @@ body {
 }
 
 .list-item >  .input-text {
-  width: 226px
+  width: 226px;
 }
 
 .delete img {
@@ -159,14 +159,14 @@ body {
 
 /* Edit Task */
 .list .list-item .input-text {
-  display:none
+  display: none;
 }
 
 .list .list-item.edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .list .list-item.edit-mode .lbl {
-  display:none;
+  display: none;
 }
