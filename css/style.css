@@ -40,27 +40,27 @@ body {
   flex-grow: 1;
 }
 
-.new-task-wrapper {
+.tasks__new-task-wrapper {
   display: flex;
 }
 
-.list {
+.tasks__list {
   margin: 0;
   padding: 0px;
 }
 
-.list-item,
-.text-title {
+.tasks__list-item,
+.tasks__text-title {
   list-style: none;
 }
 
-.input-checkbox,
-.input-text,
-.btn {
+.tasks__input-checkbox,
+.tasks__input-text,
+.tasks__btn {
   outline: none;
 }
 
-.btn {
+.tasks__btn {
   background: none;
   border: 0px;
   color: #888;
@@ -70,12 +70,12 @@ body {
   cursor: pointer;
 }
 
-.btn:hover {
+.tasks__btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-.text-title,
+.tasks__text-title,
 .new-task {
   color: #333;
   font-weight: 700;
@@ -86,7 +86,7 @@ body {
   text-transform: uppercase;
 }
 
-.input-text {
+.tasks__input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -99,7 +99,7 @@ body {
   color: #888;
 }
 
-.input-text:focus {
+.tasks__input-text:focus {
   color: #333;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 /* Task list */
-.list-item {
+.tasks__list-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -123,22 +123,22 @@ body {
   align-items: center;
 }
 
-.list-item > * {
+.tasks__list-item > * {
   vertical-align: middle;
 }
 
-.list-item > .input-checkbox {
+.tasks__list-item > .tasks__input-checkbox {
   margin: 0 10px;
 }
 
-.list-item > .lbl {
+.tasks__list-item > .tasks__lbl {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.list-item > .input-text {
+.tasks__list-item > .tasks__input-text {
   width: 226px;
 }
 
@@ -153,21 +153,21 @@ body {
 }
 
 /* Completed */
-#completed-tasks .lbl {
+#completed-tasks .tasks__lbl {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.list .list-item .input-text {
+.tasks__list .tasks__list-item .tasks__input-text {
   display: none;
 }
 
-.list .list-item.edit-mode .input-text {
+.tasks__list .tasks__list-item.edit-mode .tasks__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.list .list-item.edit-mode .lbl {
+.tasks__list .tasks__list-item.edit-mode .tasks__lbl {
   display: none;
 }
