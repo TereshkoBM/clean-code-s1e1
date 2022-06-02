@@ -12,7 +12,7 @@ body {
   text-align: right;
 }
 
-.eisenhower-matrix img {
+.eisenhower-matrix .pic {
   width: 100%;
 }
 
@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .eisenhower-matrix {
     text-align: center;
@@ -104,12 +104,12 @@ body {
 }
 
 /* New Task */
-.new-task {
+.new-task__view {
   display: block;
   margin: 0 0 20px;
 }
 
-#new-task {
+.new-task__size {
   width: 318px;
 }
 
@@ -142,13 +142,13 @@ body {
   width: 226px;
 }
 
-.delete img {
+.delete .pic{
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.delete .pic:hover {
   transform: rotateZ(0);
 }
 
